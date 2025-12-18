@@ -1,7 +1,7 @@
 .home{
     width: 50%; 
     margin: auto;
-    margin-top: 140px;
+    margin-top: 150px;
     display: flex;
     height: 500px; 
     gap: 10px;
@@ -12,16 +12,20 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    gap: 15px;
+    gap: 16px;
 }
 .name{
-    font-size: 52px;
+    font-size: 54px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 1px;
 }
+.contact{ 
+    color: white; 
+    background-color: black;
+}
 .role{
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 500;
     color: #6b7280;
 }
@@ -34,14 +38,34 @@
     margin-top: 10px;
 }
 .btn{
-    padding: 10px 20px; 
-    font-size: 14px;
+    padding: 14px 24px; 
+    font-size: 16px;
     font-weight: 500;
-    /* border: none; */
+    border: none;
     border-radius: 25px;
     /* border: black; */
+    cursor: pointer;
 }
 .photo img{
-    width: 310px;
+    width: 340px;
     border-radius: 50%;
+}
+.icons{
+    display: flex; 
+    gap: 20px;
+}
+.icon{
+    width: 35px;
+    margin-top: 5px;
+}
+.cv{
+    border: 1px solid black;
+}
+
+.tech-icon{
+    width: 42px;
+}
+.tech-icons{
+    display: flex;
+    gap: 40px;
 }
