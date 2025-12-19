@@ -1,7 +1,7 @@
 .home{
     width: 50%; 
     margin: auto;
-    margin-top: 150px;
+    margin-top: 155px;
     display: flex;
     height: 500px; 
     gap: 10px;
@@ -69,3 +69,31 @@
     display: flex;
     gap: 40px;
 }
+.tech-stack{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    gap: 60px;
+}
+.word{
+    display: flex;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    padding-right: 30px; 
+    gap: 20px;
+    position: relative;
+    margin-left: 40px;
+} 
+.line{
+    height: 60px;
+    border-right: 2px solid #9ca3af;
+    top: -15px;
+    position: absolute;
+    right: 0;
+}
+
+
+
