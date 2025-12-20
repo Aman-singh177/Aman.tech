@@ -1,0 +1,73 @@
+.project{
+    margin-top: 100px;
+}
+.project-title{
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 1.2; 
+}
+.pcard1{
+    background-color: aqua;
+    height: 630px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+.pcard-content{
+    background-color: tomato;
+    width: 60%;  
+    height: 100%; 
+    border-radius: 20px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 35%;
+    gap: 100px;
+}
+.desc-stack{ 
+    gap: 12px;
+}
+.s1{
+    display: flex; 
+    gap: 20px;
+    margin-left: 50px;
+}
+.s1 p{
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 8px;
+}
+.s2{
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    margin-top: 14px;
+}
+.s2 p{
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 8px;
+}
+.code-btn{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.code-btn p{
+    text-align: center;
+}
+.code-btn img{
+    width: 40px;
+    cursor: pointer;
+}
