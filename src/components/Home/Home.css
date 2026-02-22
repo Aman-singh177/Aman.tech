@@ -1,0 +1,99 @@
+.home{
+    width: 50%; 
+    margin: auto;
+    margin-top: 155px;
+    display: flex;
+    height: 500px; 
+    gap: 10px;
+}
+.detail{
+    margin: 0 auto;
+    margin-top: 25px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 16px;
+}
+.name{
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.contact{ 
+    color: white; 
+    background-color: black;
+}
+.role{
+    font-size: 25px;
+    font-weight: 500;
+    color: #6b7280;
+}
+.greet{
+    color: #6b7280;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.btn{
+    padding: 14px 24px; 
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    /* border: black; */
+    cursor: pointer;
+}
+.photo img{
+    width: 340px;
+    border-radius: 50%;
+}
+.icons{
+    display: flex; 
+    gap: 20px;
+}
+.icon{
+    width: 35px;
+    margin-top: 5px;
+}
+.cv{
+    border: 1px solid black;
+}
+
+.tech-icon{
+    width: 42px;
+}
+.tech-icons{
+    display: flex;
+    gap: 40px;
+}
+.tech-stack{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    gap: 60px;
+}
+.word{
+    display: flex;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    padding-right: 30px; 
+    gap: 20px;
+    position: relative;
+    margin-left: 40px;
+} 
+.line{
+    height: 60px;
+    border-right: 2px solid #9ca3af;
+    top: -15px;
+    position: absolute;
+    right: 0;
+}
+
+
+
