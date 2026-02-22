@@ -63,10 +63,11 @@ const Project = () => {
         </div> 
         <div className='pcard1'>
           <div className='description'>
-            <h2>Real Time Communication System</h2>
-            <p>Designed and implemented a real-time communication platform with WebRTC and Socket.io, enabling 
-              secure peer-to-peer video calls. Optimized connection lifecycle and performance for a smooth 
-              user experience.
+            <h2>Food Delivery Web App</h2>
+            <p>
+              I developed a full-stack Food Delivery Web Application that allows users to explore restaurants, add items 
+              to their cart, and place orders smoothly.
+              The platform includes user authentication, dynamic cart management, and real-time order handling to reflect a practical, real-world system.
             </p>
             <div className='desc-stack'>
               <div className='s1'>
@@ -101,10 +102,10 @@ const Project = () => {
 
           </div>
           <div className='description'>
-            <h2>Real Time Communication System</h2>
-            <p>Designed and implemented a real-time communication platform with WebRTC and Socket.io, enabling 
-              secure peer-to-peer video calls. Optimized connection lifecycle and performance for a smooth 
-              user experience.
+            <h2>AI Text to Image Generator</h2>
+            <p>
+              I built an AI-powered Text-to-Image Generator that converts user prompts into visually creative and meaningful images.
+              The application processes natural language input and uses machine learning models to generate unique visuals based on the given description. 
             </p>
             <div className='desc-stack'>
               <div className='s1'>
