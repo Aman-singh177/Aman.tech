@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import EducationIcon from '../../assets/Education.png'
+import img from '../../assets/astronaut.avif'
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
       </div> 
       <div className='detail-about'>
         <div>
-          <img src='https://i.pinimg.com/736x/da/97/5d/da975d71539c035ac0261b015228ba0d.jpg' alt='img' className='image'/>
+          <img src={img} alt='img' className='image'/>
         </div>
         <div className='info-about'>
           <div className='cards'>
