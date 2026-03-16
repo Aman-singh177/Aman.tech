@@ -3,20 +3,19 @@ import './Project.css'
 import giti from '../../assets/giti.png'
 import { useRef } from 'react'
 import video2 from '../../assets/video2.mp4'
+import video1 from '../../assets/video1.mp4' 
+import communication from '../../assets/communication.png'
 
 const Project = () => {
   const videoRef = useRef(null);
 
-  const handleMouseEnter = () => {
-    if (videoRef.current) {
-      videoRef.current.play();
-    }
+  const handleMouseEnter = (e) => {
+    e.target.play();
   }
-  const handleMouseLeave = () => {
-    if (videoRef.current) {
-      videoRef.current.pause();
-      videoRef.current.currentTime = 0;
-    }
+  
+  const handleMouseLeave = (e) => {
+    e.target.pause();
+    e.target.currentTime = 0;
   }
   return (
     <div className='project' id='projects'>
@@ -26,8 +25,8 @@ const Project = () => {
       </div>
       <div className='project-all'>
         <div className='pcard1'>
-          <div className='pcard-content'>
-
+          <div className='m1'>
+            <img src={communication} alt='' className='project-img' width={850} height={570}/>
           </div>
           <div className='description'>
             <h2>Real Time Communication System</h2>
@@ -99,7 +98,10 @@ const Project = () => {
         </div> 
         <div className='pcard1'>
           <div className='pcard-content'>
-
+            <video ref={videoRef} onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter}
+              className='video1' muted>
+              <source src={video1} type='video/mp4' />
+            </video>
           </div>
           <div className='description'>
             <h2>AI Text to Image Generator</h2>

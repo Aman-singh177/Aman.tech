@@ -1,5 +1,5 @@
 .home{
-    width: 50%; 
+    width: 52%; 
     margin: auto;
     margin-top: 155px;
     display: flex;
@@ -94,6 +94,7 @@
     position: absolute;
     right: 0;
 }
-
-
-
+.detail,
+.photo{
+    transition: transform 0.1s linear;
+}

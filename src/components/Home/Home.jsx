@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import './Home.css'
 import linkedinIcon from '../../assets/linkedin (1).png'
 import githubIcon from '../../assets/github.png'
@@ -7,12 +7,23 @@ import css from '../../assets/css.png'
 import js from '../../assets/js.png'
 import express from '../../assets/express.png'
 import mongo from '../../assets/mongodb.png'
+import img from '../../assets/img1.jpeg'
 
 const Home = () => {
+  const [scrollY, setScrollY] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className='main'> 
       <div className='home'>
-        <div className="detail">
+        <div className="detail" style={{ transform: `translateX(-${scrollY * 0.3}px)` }}>
           <p className='greet'>Hello, I'm</p>
           <p className='name'>Aman  Singh</p>
           <p className='role'>Full-Stack Developer</p>
@@ -29,8 +40,8 @@ const Home = () => {
             </a>
           </div>
         </div> 
-        <div className="photo">
-          <img src="https://avatars.githubusercontent.com/u/64252445?v=4" alt="Aman Singh" />
+        <div className="photo" style={{ transform: `translateX(${scrollY * 0.3}px)` }}>
+          <img src={img} alt="Aman Singh" />
         </div>
       </div>
       <div className='tech-stack'>

@@ -1,13 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 .App {
   margin: 0 auto;
   text-align: center;
-  width: 85%;
-  /* background-color: ; */
+  width: 85%; 
   min-height: 100vh;
 }
 /* 
